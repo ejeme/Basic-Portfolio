@@ -6,11 +6,7 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 font-size: 18px;
 line-height: 150%;
 
-
 }
-
-
-
 
 h1 {
     color: black;
@@ -22,8 +18,7 @@ h1 {
     font-size: 28px; 
     margin-bottom:40px;
 
-    
-}
+ }
 
 ul {
     float:right;
@@ -61,16 +56,19 @@ h2 {
 a { 
     color: black;
     text-decoration: none;
+
+}
+
 }
 
 .container {
-    width: 1024px;
+    width: 1080px;
     margin: 0 auto;
 }
 
 #main-bio,
-#contact-info,
-#bio-image
+#bio-image,
+#contact-info
 {
     float: left;
 }
@@ -88,7 +86,7 @@ a {
     background-color: #5addb6;
     margin-top:40px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 0px;
     text-align: center;
     line-height: 200%;
     
@@ -97,6 +95,27 @@ a {
     margin-right: 20px;
     width: 200px;
     
+}
+
+a.email {
+color:blue;
+text-decoration:underline;
+}
+
+a.facebook {
+color:blue;
+font-weight: bold   
+}
+
+a.instagram
+{
+color:blue;
+font-weight: bold   
+}
+
+a.linkedin {
+color:green;
+font-weight: bold   
 }
 
 #github-icon,
@@ -109,9 +128,10 @@ a {
     float: center;
 }
 
-footer{
-    background-color: #5addb6
-    position:fixed;
+.clearfix::after{
+content:"";
+display:block;
+clear:both;
 }
 
 footer {
