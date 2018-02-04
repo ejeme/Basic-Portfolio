@@ -4,11 +4,11 @@ margin: 0;
 padding: 0;
 font-family: 'Georgia', Times, Times New Roman, serif;
 font-size: 18px;
-line-height: 150%;
-
+Height: 100%;
 }
 
 h1 {
+    width:100%;
     color: black;
     background-color: #5addb6;
     border-bottom: 5px solid black;
@@ -56,15 +56,14 @@ h2 {
 a { 
     color: black;
     text-decoration: none;
-
-
 }
 
-
-
 .container {
-    width: 1080px;
+    position: relative;
+    width: 960px;
     margin: 0 auto;
+    height: 960px;
+
 }
 
 #main-bio,
@@ -143,13 +142,18 @@ footer {
     padding-bottom:30px;
     border-top: 5px solid black;
     text-align:center;
-    margin-top:80px;
+    position: fixed;
+    bottom:0px;
     }
 
-
-  
   a:hover {
     color: red;
   }
   
+#github-icon:hover,
+#facebook-icon:hover,
+#instagram-icon:hover,
+#linkedin-icon:hover { 
+    width: 17%;
+}
 
